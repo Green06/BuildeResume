@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=date] {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#qual {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#qual td, #qual th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#qual tr:nth-child(even){background-color: #f2f2f2;}
+
+#quals tr:hover {background-color: #ddd;}
+
+#qual th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1 style="color:#4CAF50;text-align: center;"> 
+			 BuildeResume 
+		</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="adress">Adress</label>
+     <input type="text" id="adress" name="firstname" placeholder="adress">
+    </select>
+    <label for="mail">Emai-ld</label>
+     <input type="text" id="emailid" name="firstname" placeholder="abc@nmail.com">
+    </select>
+    
+    <label for="mobno">Mob No</label>
+     <input type="text" id="mobno" name="firstname" placeholder="mob no">
+    </select>
+    
+    <label for="subject">Career Objective</label>
+    <textarea id="subject" name="subject" placeholder="" style="height:100px"></textarea>
+    <p>note: you can find career objective samples <a href="https://www.naukri.com/blog/career-objective-or-resume-objective-samples/">here</a></p>
+<br><table id="qual">
+  <tr>
+    <th>class and year</th>
+    <th>school / college</th>
+    <th>cgpa / percentage</th>
+  </tr>
+   <tr>
+    <td> <label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+  </tr>
+  <tr>
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+  </tr>
+  <tr>
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+  </tr>
+  <tr>
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+    <td><label for="lname"></label>
+    <input type="text" id="lname" name="lastname"></td>
+    
+    
+  </tr>
+  </table>
+
+     <label for="hobby">Hobbies/Extra Curricular Activities</label>
+     <input type="text" id="hobby" name="hobby" >
+    </select>
+
+    
+  
+  <label for="awards">Awards/Prizes/Recognition
+</label>
+    <textarea id="awards" name="awards" style="height:100px"></textarea>
+    
+    <label for="skills">Computer Skills
+
+</label>
+    <textarea id="skills" name="skills" style="height:60px"></textarea>
+    
+    <b>Personal Details</b><br><br>
+    <label for="birthday">Date of birth:<br></label>
+  <input type="date" id="birthday" name="birthday"><br>
+  
+   <label for="adress">Adress</label>
+     <input type="text" id="adress" name="firstname" placeholder="adress">
+    </select>
+   <label for="lan"> Languages known</label>
+     <input type="text" id="lan" name="firstname">
+    </select>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
